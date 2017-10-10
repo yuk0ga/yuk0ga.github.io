@@ -25,6 +25,11 @@
   <link rel="stylesheet" href="css/master.css"/>
   <link rel="stylesheet" href="css/fontello.css"/>
 
+  <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -39,9 +44,9 @@
     <div class="hero-text">
       <div class="row">YU KOGA</div>
       <div class="row">
-        <div class="one-third column"><a target="_blank" href="#" style="text-decoration: none; color: white"><h6 class="hero-nav-1">bio</h6></a></div>
-        <div class="one-third column"><a target="_blank" href="https://yukogablog.wordpress.com" style="text-decoration: none; color: white"><h6 class="hero-nav-2">blog</h6></a></div>
-        <div class="one-third column"><a target="_blank" href="#" style="text-decoration: none; color: white"><h6 class="hero-nav-3">projects</h6></a></div>
+        <div class="one-third column"><a href="#profile" style="text-decoration: none; color: white"><h6 id="hero-nav-1">profile</h6></a></div>
+        <div class="one-third column"><a target="_blank" href="https://yukogablog.wordpress.com" style="text-decoration: none; color: white"><h6 id="hero-nav-2">blog</h6></a></div>
+        <div class="one-third column"><a target="_blank" href="#" style="text-decoration: none; color: white"><h6 id="hero-nav-3">projects</h6></a></div>
       </div>
       <div class="row">
         <h6>
@@ -54,18 +59,25 @@
     </div>
   </div>
 
-  <br>
-
-  <div class="bio">
+  <div id="profile" class="profile">
     <div class="container">
-      <h3 class="section-heading">Biography</h3>
-      <img class="u-max-full-width" src="images/mypic.JPG">
-      <p>Hi! My name is Yu koga. I am 18 years old, and right now I am working at Tagbangers inc. as an intern.</p>
+      <h3 class="section-heading">Profile</h3>
+      <div class="container">
+        <div class="container">
+              <img class="mypic u-max-full-width" src="images/mypic.JPG">
+        </div>
+        <p>Hi there! Welcome to my personal website that I created only to boost my ego and make myself proud.
+        My name is Yu Koga, and I am an aspiring software developer currently working at <a target="_blank" style="color: black" href="https://www.tagbangers.co.jp/">Tagbangers, inc.</a> as an intern.
+        Have fun wandering around this website, and after you’re done be sure to follow all my SNS accounts to boost up my ego even more.
+        Click <a style="color: black" href="https://yuk0ga.github.io/about">here</a> if you want to know more about me. (I know you do!)</p>
+      </div>
+
     </div>
   </div>
 
-    <hr>
-
+<br>
+<br>
+  <div class="container">
     <h3>Welcome!</h3>
     <nav>
       <ul>
@@ -79,6 +91,7 @@
       <li><a target="_blank" href="https://yuk0ga.github.io/calculatr">Calculatr (Javascript)</a></li>
     </ul>
     <footer>Copyright &copy; 2017 Yu Koga All Rights Reserved.</footer>
+  </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

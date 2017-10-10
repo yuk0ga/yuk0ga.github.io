@@ -23,6 +23,23 @@ body, html {
   color: white;
 }
 
-.hero-nav-1:hover {color: black;}
-.hero-nav-2:hover {color: black;}
-.hero-nav-3:hover {color: black;}
+#hero-nav-1:hover {color: black;}
+#hero-nav-2:hover {color: black;}
+#hero-nav-3:hover {color: black;}
+
+.bio {
+
+}
+
+.section-heading {
+  text-align: center;
+  padding-top: 2.0rem;
+}
+
+.mypic {
+
+}
+
+p {
+  margin: 2.0rem;
+}
