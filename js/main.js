@@ -20,7 +20,7 @@ $(function(){
 		return false;
 	});
 
-  $('.name').click(function(){
+  $('#hero-name').click(function(){
     var randomNum = Math.floor(Math.random() * mypics.length);
 
     $(".hero-image")

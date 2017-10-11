@@ -37,3 +37,25 @@ body, html {
 p {
   margin: 2.0rem;
 }
+
+.placeholder {
+  padding-top: 4.0rem;
+  padding-bottom: 4.0rem;
+}
+
+.section-blog {
+  background-color: #f8f8f8;
+}
+
+.section-projects {
+  background-color: #e8e8e8;
+}
+
+.footer {
+  background-color: black;
+}
+
+#copyright {
+  text-align: center;
+  color: white;
+}
