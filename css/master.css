@@ -29,6 +29,24 @@ body, html {
 #hero-nav-2:hover {color: black;}
 #hero-nav-3:hover {color: black;}
 
+.scrollTopImg {
+  position: fixed;
+  z-index: 100;
+  right: 3%;
+  bottom: 4%;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  /*-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;*/
+}
+
+.scrollTopImg:hover {
+  opacity: 0.80;
+}
+
 .section-heading {
   text-align: center;
   padding-top: 2.0rem;

@@ -11,6 +11,19 @@ $(function(){
   //   style: "background-image: url(" +mypics[randomNum]+ ");"
   // });
 
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+      $(".scrollTopImg").fadeIn(300);
+    } else {
+      $(".scrollTopImg").fadeOut(300);
+    }
+  });
+
+  $(".scrollTopImg").click(function(){
+    $("html, body").animate({scrollTop:0}, 300, "swing");
+    return false;
+  })
+
 	$('a[href^=\\#]').click(function(){
 		var time = 1200;
 		var href= $(this).attr("href");
