@@ -1,5 +1,5 @@
 $(function(){
-  var numberOfPics = 15;
+  var numberOfPics = 14;
   var mypics = [];
   for (var i = 1; i < numberOfPics+1; i++) {
     mypics.push("images/bg"+[i]+".JPG");
