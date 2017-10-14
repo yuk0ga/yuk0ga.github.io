@@ -4,6 +4,8 @@ $(function(){
   for (var i = 1; i < numberOfPics+1; i++) {
     mypics.push("images/bg"+[i]+".JPG");
   }
+  var windowHeight = $(window).height(),
+      pos = windowHeight;
 
   // change background-image on very access
   // var randomNum = Math.floor(Math.random() * mypics.length);
@@ -18,14 +20,22 @@ $(function(){
       $(".icon-scroll-top").fadeOut(300);
     }
 
-    var windowHeight = $(window).height(),
-        pos = windowHeight - 35;
-    if ($(this).scrollTop() > pos) {
+    if ($(this).scrollTop() > pos - 35) {
       $(".icon-menu").css("color", "black");
     } else {
       $(".icon-menu").css("color", "white");
     }
   });
+
+  $(window).bind('scroll', function() {
+			 if ($(this).scrollTop() > pos) {
+				 $('.nav').addClass('fixed');
+         $(".section-profile").addClass("topspace");
+			 } else {
+				 $('.nav').removeClass('fixed');
+         $(".section-profile").removeClass("topspace");
+			 }
+		});
 
   $(".icon-scroll-top").click(function(){
     $("html, body").animate({scrollTop:0}, 300, "swing");

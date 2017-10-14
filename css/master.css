@@ -34,9 +34,8 @@ body, html {
 
 /*#hero-name:hover {color: grey;}*/
 
-#hero-nav-1:hover, #hero-nav-2:hover, #hero-nav-3:hover{
-  color: black;
-}
+.hero-nav:hover{ color: black;}
+.menu-nav:hover{ color: grey;}
 
 .icon-github-circled:hover { color: black;}
 .icon-twitter:hover { color: #1dcaff;}
@@ -57,9 +56,34 @@ body, html {
   font-size: 40px;
 }
 
+.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.topspace {
+  margin-top: 30px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav {
+  background: black;
+  height: 30px;
+}
+
+.menu { width:33.33%; }
+#hero-name { width: 100%;}
+
 .section-heading {
   text-align: center;
-  padding-top: 2.0rem;
+  padding-top: 40px;
 }
 
 p {
