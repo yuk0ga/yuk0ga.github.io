@@ -1,4 +1,5 @@
 $(function(){
+  $(".hero-image").animate({ opacity: 1 }, { duration: 1700 });
   var numberOfPics = 14;
   var mypics = [];
   for (var i = 1; i < numberOfPics+1; i++) {
@@ -54,13 +55,12 @@ $(function(){
   $('#hero-name').click(function(){
     var randomNum = Math.floor(Math.random() * mypics.length);
 
-    $(".hero-image")
-        .fadeOut(400, function() {
-          //load new image
-            $(".hero-image").attr({
+    $(".hero-image").fadeOut(500, function() {
+            $(this).attr({
               style: "background-image: url(" +mypics[randomNum]+ ");"
             });
-        })
-        .fadeIn(600);
+            $(this).fadeIn(1);
+        });
+     $(".hero-image").animate({ opacity: 1 }, { duration: 1700 });
   })
 });
