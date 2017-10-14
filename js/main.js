@@ -13,13 +13,21 @@ $(function(){
 
   $(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
-      $(".scrollTopImg").fadeIn(300);
+      $(".icon-scroll-top").fadeIn(300);
     } else {
-      $(".scrollTopImg").fadeOut(300);
+      $(".icon-scroll-top").fadeOut(300);
+    }
+
+    var windowHeight = $(window).height(),
+        pos = windowHeight - 35;
+    if ($(this).scrollTop() > pos) {
+      $(".icon-menu").css("color", "black");
+    } else {
+      $(".icon-menu").css("color", "white");
     }
   });
 
-  $(".scrollTopImg").click(function(){
+  $(".icon-scroll-top").click(function(){
     $("html, body").animate({scrollTop:0}, 300, "swing");
     return false;
   })

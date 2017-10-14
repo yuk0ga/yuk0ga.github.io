@@ -1,5 +1,8 @@
 
 .icon-github-circled:before { content: '\e800'; } /* '' */
+.icon-scroll-top-1:before { content: '\e801'; } /* '' */
+.icon-scroll-top:before { content: '\e802'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
