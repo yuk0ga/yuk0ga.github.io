@@ -64,7 +64,7 @@ body, html {
 }
 
 .topspace {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .nav ul {
@@ -76,15 +76,16 @@ body, html {
 
 .nav {
   background: black;
-  height: 30px;
+  height: 50px;
+  box-shadow: 0 0 8px 2px #666;
 }
 
-.menu { width:33.33%; }
+.menu { width:33.33%; margin-top: 12px;}
 #hero-name { width: 100%;}
 
 .section-heading {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 p {
