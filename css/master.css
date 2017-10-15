@@ -80,7 +80,9 @@ body, html {
   box-shadow: 0 0 8px 2px #666;
 }
 
-.menu { width:33.33%; margin-top: 12px;}
+.menu3 { width: 33.33%;}
+
+.menu4 { width:25%; margin-top: 12px;}
 #hero-name { width: 100%;}
 
 .section-heading {
