@@ -34,6 +34,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <base target="_blank">
 </head>
 
 <body>
@@ -82,7 +83,7 @@
         <div class="container">
               <img class="mypic u-max-full-width" src="images/mypic.JPG">
         </div>
-        <p>Hi there! Welcome to my personal website that I created only to boost my ego and make myself proud.
+        <p class="profiletext">Hi there! Welcome to my personal website that I created only to boost my ego and make myself proud.
         My name is Yu Koga, and I am an aspiring software developer currently working at <a target="_blank" style="color: black" href="https://www.tagbangers.co.jp/">Tagbangers, inc.</a> as an intern.
         Have fun wandering around this website, and after you’re done be sure to follow all my SNS accounts to boost up my ego even more.
         Click <a style="color: black" href="https://yuk0ga.github.io/about">here</a> if you want to know more about me. (I know you do!)</p>
@@ -94,17 +95,24 @@
   <div id="blog" class="section-blog">
     <div class="container">
       <h3 class="section-heading">Blog</h3>
-      <div class="container">
-          <h5>Recent</h5>
+      <div class="row">
+        <div class="most-recent one-half column">
+          <h5>Most Recent</h5>
+          <div id="featuredImg"></div>
+          <div id="content"></div>
+        </div>
+        <div class="other-posts one-half column">
+          <h5>Other</h5>
+          <div id="recent-posts"></div>
+        </div>
       </div>
-      <img class="placeholder u-max-full-width" src="images/underconstruction.png" alt="underconstruction">
     </div>
   </div>
 
   <div id="projects" class="section-projects">
     <div class="container">
       <h3 class="section-heading">Projects</h3>
-      <div class="container">
+      <div class="subhd">
           <h5>Featured</h5>
       </div>
       <img class="placeholder u-max-full-width" src="images/underconstruction.png" alt="underconstruction">

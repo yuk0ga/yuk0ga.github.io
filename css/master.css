@@ -87,11 +87,26 @@ body, html {
 
 .section-heading {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
-p {
+.profiletext {
   margin: 2.0rem;
+}
+
+.most-recent > h5, .other-posts > h5 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.mainimg {
+  position: relative;
+  max-width: 100%;
+}
+
+.other-posts {
+  border-left: 3px;
+  border-color: grey;
 }
 
 .placeholder {
