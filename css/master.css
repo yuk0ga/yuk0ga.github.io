@@ -15,6 +15,7 @@ body, html {
 
 #hero-name {
   white-space: nowrap;
+  font-weight: 100;
 }
 
 .icon-menu {
@@ -84,7 +85,10 @@ body, html {
   box-shadow: 0 0 8px 2px #666;
 }
 
-.menu3 { width: 33.33%;}
+.menu3 {
+  width: 33.33%;
+  font-weight: 300;
+}
 
 .menu4 { width:25%; margin-top: 12px;}
 #hero-name { width: 100%;}
