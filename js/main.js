@@ -30,10 +30,10 @@ $(function(){
 
 		if ($(this).scrollTop() > pos) {
 			$('.nav').addClass('fixed');
-      $(".section-profile").addClass("topspace");
+      $(".profile").addClass("topspace");
 		} else {
 			$('.nav').removeClass('fixed');
-      $(".section-profile").removeClass("topspace");
+      $(".profile").removeClass("topspace");
 		}
 });
 
