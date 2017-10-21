@@ -85,27 +85,10 @@ body, html {
 
 /*navigation*/
 
-.nav > div {
-  height: 50px;
-}
-
-.container > nav > ul > li > a {
-  text-decoration: none;
-  color: white;
-}
-
 .fixed {
 	position: fixed;
 	top: 0;
 	z-index: 1;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    color: white;
 }
 
 .nav {
@@ -114,9 +97,34 @@ body, html {
   box-shadow: 0 0 8px 2px #666;
 }
 
-.menu4 {
-  width:25%;
-  margin-top: 12px;
+.nav > .container {
+  height: 50px;
+}
+
+.nav > .container > nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+.nav > .container > nav > ul > li {
+  display: inline;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.nav > .container > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav > .container > nav > ul > li > a > .menu-nav {
+  margin-bottom: 0px;
+  padding: 13px 0;
+  width:23%;
+  display: inline-block;
 }
 
 /*sections*/
