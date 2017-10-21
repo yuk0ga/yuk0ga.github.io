@@ -13,8 +13,7 @@ $(function(){
   // });
 
   $(window).scroll(function(){
-    var windowHeight = $(window).height(),
-        pos = windowHeight;
+    var windowHeight = $(window).height();
 
     if ($(this).scrollTop() > 100) {
       $(".icon-scroll-top").fadeIn(300);
@@ -22,13 +21,13 @@ $(function(){
       $(".icon-scroll-top").fadeOut(300);
     }
 
-    if ($(this).scrollTop() > pos - 35) {
+    if ($(this).scrollTop() > windowHeight - 35) {
       $(".icon-menu").css("color", "black");
     } else {
       $(".icon-menu").css("color", "white");
     }
 
-		if ($(this).scrollTop() > pos) {
+		if ($(this).scrollTop() > windowHeight) {
 			$('.nav').addClass('fixed');
       $(".profile").addClass("topspace");
 		} else {

@@ -62,16 +62,14 @@ body, html {
 /*#hero-name:hover {color: grey;}*/
 
 .hero-nav:hover{ color: grey;}
-.menu-nav:hover{ color: grey;}
+.menu-nav:hover{ color: #538cc6;}
 
 .icon-github-circled:hover { color: black;}
 .icon-twitter:hover { color: #1dcaff;}
 .icon-facebook:hover { color: #3B5998;}
 .icon-instagram:hover { color: #8a3ab9;}
 .icon-menu:hover { opacity: 0.50;}
-.icon-scroll-top:hover {
-  opacity: 0.50;
-}
+.icon-scroll-top:hover { color: #d3d3d3;}
 
 .icon-scroll-top {
   position: fixed;
@@ -81,6 +79,8 @@ body, html {
   display: none;
   text-decoration: none;
   font-size: 40px;
+  color: #538cc6;
+  opacity: 0.8;
 }
 
 /*navigation*/
@@ -91,8 +91,12 @@ body, html {
 	z-index: 1;
 }
 
+.selected {     /* to add bottom border on reach */
+  border-bottom: 4px solid #538cc6;
+}
+
 .nav {
-  background: black;
+  background: white;
   height: 50px;
   box-shadow: 0 0 8px 2px #666;
 }
@@ -106,18 +110,21 @@ body, html {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: white;
 }
 
 .nav > .container > nav > ul > li {
   display: inline;
   height: 50px;
   margin: 0 auto;
+  padding: 12px 0;
+  border-bottom: 4px solid transparent; /*space for border*/
 }
+
+/*.nav > .container > nav > ul > li:hover {border-bottom: 4px solid #538cc6;}*/
 
 .nav > .container > nav > ul > li > a {
   text-decoration: none;
-  color: white;
+  color: grey;
 }
 
 .nav > .container > nav > ul > li > a > .menu-nav {
@@ -176,7 +183,7 @@ body, html {
 /*projects section*/
 
 .projects {
-  background-color: #e8e8e8;
+  background-color: #f4f4f4;
 }
 
 .placeholder {
@@ -186,10 +193,10 @@ body, html {
 /*footer*/
 
 .footer {
-  background-color: black;
+  background-color: white;
 }
 
-#copyright {
+#footer-note {
   text-align: center;
-  color: white;
+  color: grey;
 }
