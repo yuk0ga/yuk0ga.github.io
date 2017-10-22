@@ -62,7 +62,7 @@ body, html {
 /*#hero-name:hover {color: grey;}*/
 
 .hero-nav:hover{ color: grey;}
-.menu-nav:hover{ color: #9fbfdf;}
+.menu-nav:hover{ color: #538cc6;} /* #9fbfdf */
 
 .icon-github-circled:hover { color: black;}
 .icon-twitter:hover { color: #1dcaff;}
@@ -120,7 +120,7 @@ body, html {
   border-bottom: 4px solid transparent; /*space for border*/
 }
 
-.nav > .container > nav > ul > li:hover {border-bottom: 4px solid #9fbfdf;}
+.nav > .container > nav > ul > li:hover {border-bottom: 4px solid #538cc6;} /* #9fbfdf */
 
 .nav > .container > nav > ul > li > a {
   text-decoration: none;
