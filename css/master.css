@@ -62,14 +62,14 @@ body, html {
 /*#hero-name:hover {color: grey;}*/
 
 .hero-nav:hover{ color: grey;}
-.menu-nav:hover{ color: #538cc6;} /* #9fbfdf */
+.menu-nav:hover{ color: #9fbfdf;} /* #9fbfdf */
 
 .icon-github-circled:hover { color: black;}
 .icon-twitter:hover { color: #1dcaff;}
 .icon-facebook:hover { color: #3B5998;}
 .icon-instagram:hover { color: #8a3ab9;}
 .icon-menu:hover { opacity: 0.50;}
-.icon-scroll-top:hover { color: #d3d3d3;}
+.icon-scroll-top:hover { color: #538cc6;}
 
 .icon-scroll-top {
   position: fixed;
@@ -79,7 +79,7 @@ body, html {
   display: none;
   text-decoration: none;
   font-size: 40px;
-  color: #538cc6;
+  color: #c7c2c0;
   opacity: 0.8;
 }
 
@@ -93,6 +93,17 @@ body, html {
 
 .selected {     /* to add bottom border on reach */
   border-bottom: 4px solid #538cc6;
+}
+.selected > a > h6 {
+  color: #538cc6;
+}
+
+.reset {
+  border-bottom: 4px solid white;
+}
+
+.reset > a > h6 {
+  color: grey;
 }
 
 .nav {
@@ -117,10 +128,9 @@ body, html {
   height: 50px;
   margin: 0 auto;
   padding: 12px 0;
-  border-bottom: 4px solid transparent; /*space for border*/
 }
 
-.nav > .container > nav > ul > li:hover {border-bottom: 4px solid #538cc6;} /* #9fbfdf */
+.nav > .container > nav > ul > li:hover {border-bottom: 4px solid #9fbfdf;} /* #9fbfdf */
 
 .nav > .container > nav > ul > li > a {
   text-decoration: none;
