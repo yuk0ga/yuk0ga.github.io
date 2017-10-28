@@ -14,9 +14,9 @@ $(function(){
 
   $(window).scroll(function(){
     var windowHeight = $(window).height();
-    var profilePosition = $('.profile').offset().top - 20;
-    var blogPosition = $('.blog').offset().top - 20;
-    var projectsPosition = $('.projects').offset().top - 20 ;
+    var profilePosition = $('.profile').offset().top - 30;
+    var blogPosition = $('.blog').offset().top - 30;
+    var projectsPosition = $('.projects').offset().top - 30;
 
     if ($(this).scrollTop() > 100) {
       $('.icon-scroll-top').fadeIn(300);
