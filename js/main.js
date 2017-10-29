@@ -5,6 +5,10 @@ $(function(){
   for (var i = 1; i < numberOfPics+1; i++) {
     mypics.push('images/bg'+[i]+'.JPG');
   }
+  window.sr = ScrollReveal({ duration: 1000 });
+  sr.reveal('#hero-name');
+  sr.reveal('.menu3');
+  sr.reveal('.hero-text > .row > h6');
 
   // change background-image on very access
   // var randomNum = Math.floor(Math.random() * mypics.length);
@@ -25,6 +29,8 @@ $(function(){
       $(".nav > .container > nav > ul > li").removeClass('selected');
     }
 
+    $(".hero-image").css("opacity", 3.8 - $(window).scrollTop() / 250);
+
     if ($(this).scrollTop() > windowHeight - 35) {
       $('.icon-menu').css('color', 'black');
     } else {
@@ -39,10 +45,25 @@ $(function(){
       $('.profile').removeClass('topspace');
 		}
 
+    if ($(this).scrollTop() > windowHeight/4) {
+      sr.reveal('.profile > .container > .section-heading');
+      sr.reveal('.mypic');
+      sr.reveal('.profiletext');
+    }
+
     if ($(this).scrollTop() > profilePosition) {
       $('#nav-profile').addClass('selected');
     } else {
       $('#nav-profile').removeClass('selected');
+    }
+
+    if ($(this).scrollTop() > profilePosition/4) {
+      sr.reveal('.blog > .container > .section-heading');
+      sr.reveal('.most-recent > h5');
+      sr.reveal('#featuredImg');
+      sr.reveal('#content');
+      sr.reveal('.otherPosts > h5');
+      sr.reveal('#recent-posts');
     }
 
     if ($(this).scrollTop() > blogPosition) {
@@ -50,6 +71,12 @@ $(function(){
       $('#nav-blog').addClass('selected');
     } else {
       $('#nav-blog').removeClass('selected');
+    }
+
+    if ($(this).scrollTop() > blogPosition/4) {
+      sr.reveal('.projects > .container > .section-heading');
+      sr.reveal('.subhd > h5');
+      sr.reveal('.oops');
     }
 
     if ($(this).scrollTop() > projectsPosition) {
@@ -143,5 +170,5 @@ if (touch) { // remove all :hover stylesheets
         }
     } catch (ex) {}
 }
- 
+
 });

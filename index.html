@@ -29,6 +29,7 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,14 +38,18 @@
   <base target="_blank">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108387460-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108387460-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-108387460-1');
-</script>
+    gtag('config', 'UA-108387460-1');
+  </script>
+
+  <style>
+    .profile > .container, .blog > .container, .projects > .container {visibility: hidden;}
+  </style>
 
 </head>
 
