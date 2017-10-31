@@ -11,10 +11,10 @@ $(function(){
   sr.reveal('.hero-text > .row > h6');
 
   // change background-image on very access
-  // var randomNum = Math.floor(Math.random() * mypics.length);
-  // $('.hero-image').attr({
-  //   style: "background-image: url(" +mypics[randomNum]+ ");"
-  // });
+  var randomNum = Math.floor(Math.random() * mypics.length);
+  $('.hero-image').attr({
+    style: "background-image: url(" +mypics[randomNum]+ ");"
+  });
 
   $(window).scroll(function(){
     var windowHeight = $(window).height();
