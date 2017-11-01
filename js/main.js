@@ -24,8 +24,12 @@ $(function(){
 
     if ($(this).scrollTop() > 100) {
       $('.icon-scroll-top').fadeIn(300);
+      $('.icon-scroll-top').addClass('icon-scroll-top-appear');
     } else {
-      $('.icon-scroll-top').fadeOut(300);
+      $('.icon-scroll-top').fadeOut(200, function(){
+        $('.icon-scroll-top').removeClass('icon-scroll-top-clicked');
+        $('.icon-scroll-top').removeClass('icon-scroll-top-appear');
+      });
       $(".nav > .container > nav > ul > li").removeClass('selected');
     }
 
@@ -88,6 +92,7 @@ $(function(){
 });
 
   $(".icon-scroll-top").click(function(){
+    $(this).addClass('icon-scroll-top-clicked');
     $("html, body").animate({scrollTop:0}, 300, "swing");
     return false;
   })

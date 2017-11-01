@@ -75,12 +75,21 @@ body, html {
   position: fixed;
   z-index: 100;
   right: 3%;
-  bottom: 7%;
+  bottom: 5%;
   display: none;
   text-decoration: none;
   font-size: 40px;
   color: #c7c2c0;
   opacity: 0.8;
+  transition: 0.7s;
+}
+
+.icon-scroll-top-appear {
+  transform: translate(0, -50px);
+}
+
+.icon-scroll-top-clicked {
+  transform: translate(0, -100px);
 }
 
 /*navigation*/
