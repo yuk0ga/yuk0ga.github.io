@@ -1,6 +1,6 @@
 $(function(){
   $('.hero-image').animate({ opacity: 1 }, { duration: 1700 });
-  var numberOfPics = 17;
+  var numberOfPics = 19;
   var mypics = [];
   for (var i = 1; i < numberOfPics+1; i++) {
     mypics.push('images/bg'+[i]+'.JPG');
