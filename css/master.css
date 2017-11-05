@@ -8,11 +8,18 @@ body, html {
 .hero-image {
   background-image: url(../images/bg1.JPG);
   height: 100%;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   opacity: 0;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .hero-image {
+        background-attachment: scroll;
+    }
 }
 
 .hero-image > .hero-text > a {
