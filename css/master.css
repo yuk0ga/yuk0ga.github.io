@@ -95,6 +95,10 @@ body, html {
   transform: translate(0, -50px);
 }
 
+.icon-scroll-top-disappear {
+  transform: translate(0, 50px);
+}
+
 .icon-scroll-top-clicked {
   transform: translate(0, -100px);
 }

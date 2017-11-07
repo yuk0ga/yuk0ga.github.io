@@ -26,9 +26,11 @@ $(function(){
       $('.icon-scroll-top').fadeIn(300);
       $('.icon-scroll-top').addClass('icon-scroll-top-appear');
     } else {
+      $('.icon-scroll-top').addClass('icon-scroll-top-disappear');
       $('.icon-scroll-top').fadeOut(200, function(){
         $('.icon-scroll-top').removeClass('icon-scroll-top-clicked');
         $('.icon-scroll-top').removeClass('icon-scroll-top-appear');
+        $('.icon-scroll-top').removeClass('icon-scroll-top-disappear');
       });
       $(".nav > .container > nav > ul > li").removeClass('selected');
     }
