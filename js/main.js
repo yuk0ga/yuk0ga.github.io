@@ -27,7 +27,7 @@ $(function(){
       $('.icon-scroll-top').addClass('icon-scroll-top-appear');
     } else {
       $('.icon-scroll-top').addClass('icon-scroll-top-disappear');
-      $('.icon-scroll-top').fadeOut(200, function(){
+      $('.icon-scroll-top').fadeOut(400, function(){
         $('.icon-scroll-top').removeClass('icon-scroll-top-clicked');
         $('.icon-scroll-top').removeClass('icon-scroll-top-appear');
         $('.icon-scroll-top').removeClass('icon-scroll-top-disappear');
