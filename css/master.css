@@ -226,7 +226,26 @@ body, html {
   background-color: white;
 }
 
-#footer-note {
+.footer > .container > .sns {
   text-align: center;
+}
+
+.footer > .container > .sns > a {
   color: grey;
+  font-size: 30px;
+}
+
+#footerImg {
+  width: 70px;
+  height: auto;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.footer-text > p {
+  color: grey;
+  /*display: inline;*/
+  margin: 0 0 8px;
 }
