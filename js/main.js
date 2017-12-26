@@ -3,7 +3,7 @@ $(function(){
   var numberOfPics = 19;
   var mypics = [];
   for (var i = 1; i < numberOfPics+1; i++) {
-    mypics.push('images/bg'+[i]+'.JPG');
+    mypics.push('images/bg'+[i]+'-min.JPG');
   }
   window.sr = ScrollReveal({ duration: 1000 });
   sr.reveal('#hero-name');
