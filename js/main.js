@@ -80,8 +80,8 @@ $(function(){
     }
 
     if ($(this).scrollTop() > blogPosition/4) {
-      sr.reveal('.projects > .section-heading');
-      sr.reveal('.projects > .row > .card');
+      sr.reveal('.projects > .container > .section-heading');
+      sr.reveal('.card');
     }
 
     if ($(this).scrollTop() > projectsPosition) {
