@@ -1,5 +1,6 @@
 $(function(){
-  $('.hero-image').animate({ opacity: 1 }, { duration: 1700 });
+  var heroImage = $('.hero-image');
+  heroImage.animate({ opacity: 1 }, { duration: 1700 });
   var numberOfPics = 19;
   var mypics = [];
   for (var i = 1; i < numberOfPics+1; i++) {
@@ -12,7 +13,7 @@ $(function(){
 
   // change background-image on very access
   var randomNum = Math.floor(Math.random() * mypics.length);
-  $('.hero-image').attr({
+  heroImage.attr({
     style: "background-image: url(" +mypics[randomNum]+ ");"
   });
 
@@ -21,21 +22,20 @@ $(function(){
     var profilePosition = $('.profile').offset().top - 30;
     var blogPosition = $('.blog').offset().top - 30;
     var projectsPosition = $('.projects').offset().top - 30;
+    var iconScrollTop = $('.icon-scroll-top');
 
     if ($(this).scrollTop() > 100) {
-      $('.icon-scroll-top').fadeIn(300);
-      $('.icon-scroll-top').addClass('icon-scroll-top-appear');
+      iconScrollTop.fadeIn(300);
+      iconScrollTop.addClass('icon-scroll-top-appear');
     } else {
-      $('.icon-scroll-top').addClass('icon-scroll-top-disappear');
-      $('.icon-scroll-top').fadeOut(400, function(){
-        $('.icon-scroll-top').removeClass('icon-scroll-top-clicked');
-        $('.icon-scroll-top').removeClass('icon-scroll-top-appear');
-        $('.icon-scroll-top').removeClass('icon-scroll-top-disappear');
+      iconScrollTop.addClass('icon-scroll-top-disappear');
+      iconScrollTop.fadeOut(400, function(){
+        iconScrollTop.removeClass('icon-scroll-top-clicked');
+        iconScrollTop.removeClass('icon-scroll-top-appear');
+        iconScrollTop.removeClass('icon-scroll-top-disappear');
       });
       $(".nav > .container > nav > ul > li").removeClass('selected');
     }
-
-    $(".hero-image").css("opacity", 3.8 - $(window).scrollTop() / 250);
 
     if ($(this).scrollTop() > windowHeight - 35) {
       $('.icon-menu').css('color', 'black');
@@ -113,14 +113,14 @@ $(function(){
   $('#hero-name').click(function(){
     var randomNum = Math.floor(Math.random() * mypics.length);
 
-    $(".hero-image").fadeOut(500, function() {
+    heroImage.fadeOut(500, function() {
             $(this).attr({
               style: "background-image: url(" +mypics[randomNum]+ ");"
             });
             $(this).fadeIn(1);
         });
-     $(".hero-image").animate({ opacity: 1 }, { duration: 1700 });
-  })
+     heroImage.animate({ opacity: 1 }, { duration: 1700 });
+  });
 
   var ourRequest = new XMLHttpRequest();
 ourRequest.open('GET', 'https://public-api.wordpress.com/wp/v2/sites/yukogablog.wordpress.com/posts?per_page=4');
