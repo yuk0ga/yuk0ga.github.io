@@ -129,7 +129,7 @@ body, html {
 .nav {
   background: white;
   height: 50px;
-  box-shadow: 0 0 8px 2px #666;
+  box-shadow: 0 0 1px 0px #666;
 }
 
 .nav > .container {
