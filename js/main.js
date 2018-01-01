@@ -37,11 +37,11 @@ $(function(){
       $(".nav > .container > nav > ul > li").removeClass('selected');
     }
 
-    if ($(this).scrollTop() > windowHeight - 35) {
-      $('.icon-menu').css('color', 'black');
-    } else {
-      $('.icon-menu').css('color', 'white');
-    }
+    // if ($(this).scrollTop() > windowHeight - 35) {
+    //   $('.icon-menu').css('color', 'black');
+    // } else {
+    //   $('.icon-menu').css('color', 'white');
+    // }
 
 		if ($(this).scrollTop() > windowHeight) {
 			$('.nav').addClass('fixed');
