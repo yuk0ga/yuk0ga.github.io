@@ -1,7 +1,7 @@
 $(function(){
   var heroImage = $('.hero-image');
   heroImage.animate({ opacity: 1 }, { duration: 1700 });
-  var numberOfPics = 21;
+  var numberOfPics = 19;
   var mypics = [];
   for (var i = 1; i < numberOfPics+1; i++) {
     mypics.push('images/bg'+[i]+'-min.JPG');
