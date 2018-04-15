@@ -183,21 +183,23 @@ body, html {
 
 .mypic {
   border-radius: 50%;
-  width: 190px;
-}
-
-.profile > .container > .profiletext > a {
-  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.0rem;
+  margin-bottom: 2.0rem;
+  width: 173px;
+  vertical-align: middle;
 }
 
 .profileheading {
   margin-top: 2.0rem;
-  margin-left: 2.0rem;
   margin-bottom: 0;
 }
 
-.profiletext, .mypic {
-  margin: 2.0rem;
+.profiletext {
+  margin-top: 2.0rem;
+  margin-bottom: 2.0rem;
 }
 
 /*blog section*/
