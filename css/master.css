@@ -172,7 +172,7 @@ body, html {
 
 .section {
   padding-top: 90px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 /*profile section*/
@@ -181,11 +181,22 @@ body, html {
   margin-top: 50px;
 }
 
-.profile > .container > .container > .profiletext > a {
+.mypic {
+  border-radius: 50%;
+  width: 190px;
+}
+
+.profile > .container > .profiletext > a {
   color: black;
 }
 
-.profiletext {
+.profileheading {
+  margin-top: 2.0rem;
+  margin-left: 2.0rem;
+  margin-bottom: 0;
+}
+
+.profiletext, .mypic {
   margin: 2.0rem;
 }
 

@@ -55,6 +55,7 @@ $(function(){
       sr.reveal('.profile > .container > .section-heading');
       sr.reveal('.mypic');
       sr.reveal('.profiletext');
+      sr.reveal('.profileheading')
     }
 
     if ($(this).scrollTop() > profilePosition) {
