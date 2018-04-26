@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Yu Koga</title>
+    <link>https://yukoga.me/categories/</link>
+    <description>Recent content in Categories on Yu Koga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://yukoga.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Koga Theme</title>
+      <link>https://yukoga.me/categories/koga-theme/</link>
+      <pubDate>Thu, 26 Apr 2018 21:33:53 +1000</pubDate>
+      
+      <guid>https://yukoga.me/categories/koga-theme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

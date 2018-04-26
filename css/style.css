@@ -1,0 +1,706 @@
+html, body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  /* color: #333; card hover change color will be disabled if this is enabled */
+}
+
+a {text-decoration: none; color: #4ebf4a;}
+a:hover {text-decoration: underline; color: #555;}
+
+
+/*
+index.html
+*/
+
+.hero {
+  height: 100%;
+  position: relative;
+}
+
+.hero-name {
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-name > h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.social {
+  line-height: 30px;
+}
+
+.social > a {
+  color: black;
+  font-size: 20px;
+}
+
+/* .social > a:hover { font-size: 22px;} */
+.icon-github-circled:hover { color: grey;}
+.icon-twitter:hover { color: #1dcaff;}
+.icon-facebook:hover { color: #3B5998;}
+.icon-instagram:hover { color: #8a3ab9;}
+
+.go-bio {
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translate(-50%, -50%);
+}
+
+.go-bio > a, .go-projects > a {
+  color: black;
+  font-size: 40px;
+}
+
+
+/* bio */
+
+.bio, .projects {
+  width: 70%;
+  position: relative;
+  max-width: 700px;
+  margin: 10px auto;
+  min-height: 100%;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.profile-pic {
+  max-width: 40%;
+  border-radius: 50%;
+  border: 5px solid #4ebf4a;
+  display: block;
+  margin: auto;
+}
+
+.bio-contents > h1, .bio-contents > p {
+  max-height: 100%;
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.go-projects {
+  display: block;
+  text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .bio-contents > h1, .bio-contents > p {
+    width: 70%;
+  }
+
+  .profile-pic {
+    max-width: 30%;
+  }
+}
+
+@media only screen and (min-width: 350px) and (min-height: 600px){
+  .bio-contents {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .go-projects {
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* projects */
+
+.projects > h1 {
+  text-align: center;
+}
+
+.projects-contents {
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 30px;
+  align-items: stretch;
+}
+
+.grid-item {
+  border-radius: 5px;
+}
+
+.grid-item:hover {
+  background-color: #4ebf4a;
+}
+
+.grid-item > a {
+  color: black;
+  text-decoration: none;
+}
+
+.grid-item > a:hover {
+  color: white;
+}
+
+.grid-item > a > img {
+  border-radius: 5px;
+}
+
+.grid-item > a > img, .grid-item > a > h1, .grid-item > a > p {
+  display: block;
+  max-width: 80%;
+  margin: 10px auto;
+}
+
+
+/*
+nav.html
+*/
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 30px auto 0;
+  text-align: right;
+  max-width: 740px;
+}
+
+.navbar > li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.navbar > li > a {
+  color: #555;
+}
+
+/*
+list.html
+*/
+
+.list-title {
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 20px auto 0;
+  padding: 10px;
+
+}
+
+.list-title > h1, .see-also {
+  text-align: center;
+  margin: 10px auto;
+  border-bottom: 4px solid #4ebf4a;
+}
+
+.lastmod {
+  font-weight: bold;
+}
+
+.lastmod, .postsummary {
+  margin: 2px 2px 0;
+  font-size: 15px;
+}
+
+.posttitle {
+  font-size: 30px;
+  margin: 0;
+}
+
+.card {
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 700px;
+}
+
+.card:hover {
+  background-color: #4ebf4a;
+}
+
+.card > a {text-decoration: none;}
+.card > a:visited { color:#000000 }
+.card > a:hover {
+  color: white;
+}
+
+/*
+single.html
+*/
+
+.single {
+  /* background-color: white; */
+  border-radius: 5px;
+}
+
+.header {
+  margin: 10px auto 20px;
+  padding: 10px 0 0;
+  border-bottom: 2px solid black;
+  max-width: 700px;
+}
+
+.header > .posttitle {
+  font-size: 40px;
+}
+
+.taxonomies {
+  padding: 5px 0 0;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#tags, #categories {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 0;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#tags > li, #categories > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#categories > li > a {
+  background-color: #4ebf4a;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+#categories > li > a:hover {
+  background-color: #555;
+  text-decoration: none;
+}
+
+#tags > li > a {
+  border: 1px solid #4ebf4a;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+#tags > li > a:hover {
+  border: 1px solid #555;
+  text-decoration: none;
+}
+
+.content {
+  margin: 10px auto 25px;
+  max-width: 700px;
+}
+
+/*
+Table of Contents
+*/
+
+.toc {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px auto;
+  max-width: 700px;
+}
+
+/* list style for h1 */
+.toc > nav > ul {
+  list-style-type: none;
+}
+
+/* list style for h2 */
+.toc > nav > ul > li > ul {
+  list-style-type: decimal;
+  padding-left: 50px;
+}
+
+/* list style for h3 */
+.toc > nav > ul > li > ul > li > ul {
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+/* list style for h4 */
+.toc > nav > ul > li > ul > li > ul > li > ul {
+  list-style-type: circle;
+}
+
+/* padding per h1 */
+.toc > nav > ul > li {
+  padding-top: 4px;
+}
+
+/* padding per h2, h3 */
+.toc > nav > ul > li > ul > li,
+.toc > nav > ul > li > ul > li > ul > li {
+  padding: 3px 0;
+}
+
+/* styling of h1 */
+.toc > nav > ul > li > a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* styling of h2 */
+.toc > nav > ul > li > ul > li > a {
+  font-size: 16px;
+}
+
+/* styling of h3 */
+.toc > nav > ul > li > ul > li > ul > li > a {
+  font-size: 14px;
+}
+
+/* styling of h4 */
+.toc > nav > ul > li > ul > li > ul > li > ul > li > a {
+  font-size: 12px;
+}
+
+/* styling of all toc */
+.toc > nav > ul > li > a,
+.toc > nav > ul > li > ul > li > a,
+.toc > nav > ul > li > ul > li > ul > li > a,
+.toc > nav > ul > li > ul > li > ul > li > ul > li > a {
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  border-radius: 3px;
+}
+.toc > nav > ul > li > a:visited,
+.toc > nav > ul > li > ul > li > a:visited,
+.toc > nav > ul > li > ul > li > ul > li > a:visited,
+.toc > nav > ul > li > ul > li > ul > li > ul > li > a:visited {color: black;}
+
+.toc > nav > ul > li > a:hover,
+.toc > nav > ul > li > ul > li > a:hover,
+.toc > nav > ul > li > ul > li > ul > li > a:hover,
+.toc > nav > ul > li > ul > li > ul > li > ul > li > a:hover {text-decoration: underline; background-color: #eee;}
+
+/*
+Subheadings
+*/
+
+.content > h1 {
+  font-size: 30px;
+  margin-top: 30px;
+  padding-left: 5px;
+  border-bottom: 4px solid #4ebf4a;
+  border-radius: 2px;
+  color: black;
+  /* padding: 10px;
+  background-color: #4ebf4a;
+  color: white; */
+}
+
+.content > h3, .content > h4 {
+  padding-left: 10px;
+}
+
+.content > h2 {
+  font-size: 23px;
+  padding-left: 5px;
+  margin-top: 30px;
+  margin-left: 5px;
+  border-left: 5px solid #4ebf4a;
+  border-radius: 2px;
+}
+
+.content > h4 {
+  color: #3e9439;
+}
+
+/*
+related.html
+*/
+
+.see-also {
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.related {
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.related > ul > .card {
+  margin: 10px auto;
+}
+
+.related > h2 {
+  padding: 0 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.related > ul {
+  padding-left: 0;
+}
+
+/*
+paragraphs
+*/
+
+.content > p {
+  padding: 0 10px;
+}
+
+/*
+terms.html
+*/
+
+.terms {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: white;
+  min-height: 60%;
+}
+
+.terms > ul {
+  max-width: 500px;
+  margin: auto;
+  padding:20px;
+  list-style-type:none;
+  line-height: 25px;
+}
+
+/*
+mobile
+*/
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-color: #4ebf4a;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /*
+  index.html
+  */
+
+  .hero {
+    border-radius: 5px;
+  }
+
+  .hero, .bio, .projects {
+    background-color: white;
+  }
+
+  .hero-name {
+    width: 100%;
+    top: 45%;
+  }
+
+  .hero-name > h1 {
+    font-size: 60px;
+  }
+
+  .go-bio {
+    bottom: 3%;
+  }
+
+  .bio, .projects {
+    width: 100%;
+  }
+
+  .profile-pic {
+    border-width: 0px;
+  }
+
+  .bio > h1, .bio > p {
+    width: 80%;
+  }
+
+  /*
+  nav.html
+  */
+
+  .navbar {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 0px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .navbar > li {
+    display: inline-block;
+  }
+
+  .navbar > li > a {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  /*
+  list.html
+  */
+
+  .list-title > h1 {
+    color: white;
+    border-bottom: 0;
+    margin-top: 0;
+  }
+
+  .card {
+    margin: 10px 0;
+    padding: 15px 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  /*
+  single.html
+  */
+
+  .header, .toc, .content, .related {
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .header {
+    margin: 10px 0;
+    padding: 10px 10px 5px;
+    border-bottom: 0;
+  }
+
+  #tags, #categories {
+    margin: 5px 0 0;
+  }
+
+  .content {
+    margin: 10px 0;
+    padding: 1px 0;
+    border-bottom: 0;
+  }
+
+  .toc > nav > ul {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .content > h1 {
+    font-size: 27px;
+  }
+
+  .content > h2 {
+    font-size: 20px;
+  }
+
+  .content > p, .content > h1, .content > h2, .content > h3, .content > h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .related {
+    padding: 5px 15px;
+  }
+
+  .related > h2 {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+
+  /*
+  terms.html
+  */
+  .terms {
+    margin: 10px auto;
+  }
+
+  .terms > ul {
+    width: 40%;
+  }
+
+  .img-80 > img {
+    max-width: 100% !important;
+  }
+
+  /*
+  footer
+  */
+  .footer {
+    margin-top: 0 !important;
+    border-top: 0px !important;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .footer > p {
+    display: inline-block;
+  }
+
+  .footer > p > a {
+    color: white;
+  }
+}
+
+/*
+images
+*/
+
+.img-80 > img {
+  display: block;
+  margin: 30px auto 0;
+  max-width: 80%;
+  height: auto;
+  border: 2px solid #ddd;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.img-80 > figcaption > h4 {
+  text-align: center;
+  font-weight: normal;
+  margin: 5px auto 30px;
+}
+
+/*
+code
+*/
+pre > code {
+  background: #eee !important;
+  padding: 20px !important;
+  border-radius: 5px;
+}
+pre > code, code > span {
+  font-family:"Source Code Pro";
+}
+
+/*
+footer
+*/
+.footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-top: 2px solid #000;
+  text-align: center;
+  font-weight: bold;
+}

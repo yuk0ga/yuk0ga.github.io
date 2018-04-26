@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archives on Yu Koga</title>
+    <link>https://yukoga.me/archives/</link>
+    <description>Recent content in Archives on Yu Koga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Apr 2018 23:37:48 +1000</lastBuildDate>
+    
+	<atom:link href="https://yukoga.me/archives/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2018/04</title>
+      <link>https://yukoga.me/archives/2018/04/</link>
+      <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
+      
+      <guid>https://yukoga.me/archives/2018/04/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

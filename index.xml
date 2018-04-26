@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yu Koga</title>
+    <link>https://yukoga.me/</link>
+    <description>Recent content on Yu Koga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Apr 2018 23:37:48 +1000</lastBuildDate>
+    
+	<atom:link href="https://yukoga.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://yukoga.me/project/koga/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukoga.me/project/koga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website 2.0</title>
+      <link>https://yukoga.me/post/website-2.0/</link>
+      <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
+      
+      <guid>https://yukoga.me/post/website-2.0/</guid>
+      <description>Brand new website! Yay! I&amp;rsquo;ve wanted to build a Hugo website from scratch for so long, and now I finally made it!!
+It&amp;rsquo;s honestly so fun fiddling around with Hugo.
+Oh, and if you want to see the old website (Website 1.0), it&amp;rsquo;s still available here.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Koga (Hugo Theme)</title>
+      <link>https://yukoga.me/post/how-to-use-koga/</link>
+      <pubDate>Thu, 26 Apr 2018 21:33:53 +1000</pubDate>
+      
+      <guid>https://yukoga.me/post/how-to-use-koga/</guid>
+      <description>&amp;ldquo;Koga&amp;rdquo; is a Hugo theme that I, Yu Koga created from scratch (Don&amp;rsquo;t judge me for naming it after myself).
+So this article is not an introduction about myself, but instead it is a basic tutorial on how to use the Koga theme.
+Prerequisites  Basic knowledge on how to use the command line  Initial Steps Install Hugo If you have not installed Hugo yet, do that now by running the following commands:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yukoga.me/project/console-chat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukoga.me/project/console-chat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yukoga.me/project/unix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukoga.me/project/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yukoga.me/project/webserver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukoga.me/project/webserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hi, my name is Yu</title>
+      <link>https://yukoga.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yukoga.me/about/</guid>
+      <description>Born and raised in Japan, currently in Brisbane, Australia studying Computer Science at Queensland University of Technology. I have some experience in Java, Python, JavaScript, and HTML/CSS. Interested in Web &amp;amp; Mobile Applications, Machine Learning and AI.</description>
+    </item>
+    
+  </channel>
+</rss>

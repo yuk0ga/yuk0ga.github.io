@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://yukoga.me/project/koga/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/post/website-2.0/</loc>
+    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/post/how-to-use-koga/</loc>
+    <lastmod>2018-04-26T21:33:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/project/console-chat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/project/unix/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/project/webserver/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/archives/2018/04/</loc>
+    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/archives/</loc>
+    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/tags/hugo/</loc>
+    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/categories/koga-theme/</loc>
+    <lastmod>2018-04-26T21:33:53+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/post/</loc>
+    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/tags/</loc>
+    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/tags/website/</loc>
+    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yukoga.me/</loc>
+    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

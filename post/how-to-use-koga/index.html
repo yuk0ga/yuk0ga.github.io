@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		  <title>Introducing Koga (Hugo Theme)</title>
+			
+			<link rel="stylesheet" href="https://yukoga.mecss/style.css">
+			<link rel="stylesheet" href="https://yukoga.mecss/fontello.css">
+			
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+			
+			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/github-gist.min.css">
+			<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+			<script>hljs.initHighlightingOnLoad();</script>
+			
+			<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+
+  
+    <div id="navbar">
+  <ul class="navbar">
+  
+    
+    <li><a href="/">Home</a></li>
+    
+    <li><a href="/post/">Posts</a></li>
+    
+    <li><a href="/categories/">Categories</a></li>
+    
+    <li><a href="/tags/">Tags</a></li>
+    
+    <li><a href="/archives/">Archives</a></li>
+    
+  
+  </ul>
+</div>
+
+  
+
+  
+<div class="single">
+  <div class="header">
+    <p class="lastmod">April 26, 2018</p>
+    <h1 class="posttitle">Introducing Koga (Hugo Theme)</h1>
+    <div class="taxonomies">
+      
+      <ul id="tags">
+        
+        <li><a href="/tags/hugo"><i class="icon-tags"></i>hugo</a></li>
+        
+      </ul>
+      
+      
+      <ul id="categories">
+        
+        <li><a href="/categories/koga-theme"><i class="icon-categories"></i>koga-theme</a></li>
+        
+      </ul>
+      
+    </div>
+  </div>
+  
+    <div class="toc">
+        <nav id="TableOfContents">
+<ul>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#initial-steps">Initial Steps</a>
+<ul>
+<li><a href="#install-hugo">Install Hugo</a></li>
+<li><a href="#create-new-site">Create New Site</a></li>
+<li><a href="#add-theme">Add Theme</a></li>
+</ul></li>
+<li><a href="#configurations">Configurations</a>
+<ul>
+<li><a href="#edit-config-toml">Edit config.toml</a></li>
+<li><a href="#delete-default-md-in-archetypes">Delete <code>_default.md</code> in archetypes</a></li>
+<li><a href="#create-directory-static-images">Create Directory &ldquo;static/images&rdquo;</a></li>
+<li><a href="#add-cname-file-for-custom-domains">Add CNAME file (For custom domains)</a></li>
+</ul></li>
+<li><a href="#creating-contents">Creating Contents</a>
+<ul>
+<li><a href="#add-your-bio">Add your bio</a></li>
+<li><a href="#add-a-project">Add a Project</a></li>
+<li><a href="#create-an-article">Create an Article</a>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#code">Code</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+  
+  <div class="content">
+    
+
+<p>&ldquo;Koga&rdquo; is a <strong>Hugo theme</strong> that I, Yu Koga created from scratch (Don&rsquo;t judge me for naming it after myself).</p>
+
+<p>So this article is not an introduction about myself, but instead it is a <strong>basic tutorial</strong> on how to use the Koga theme.</p>
+
+<h1 id="prerequisites">Prerequisites</h1>
+
+<ul>
+<li>Basic knowledge on how to use the command line</li>
+</ul>
+
+<h1 id="initial-steps">Initial Steps</h1>
+
+<h2 id="install-hugo">Install Hugo</h2>
+
+<p>If you have not installed Hugo yet, do that now by running the following commands:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">brew install hugo</code></pre></div>
+<p>To check that you have successfully installed it, run</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">hugo version</code></pre></div>
+<p>and it should return the version of hugo you have installed.</p>
+
+<h2 id="create-new-site">Create New Site</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">hugo new site example</code></pre></div>
+<p>Replace &ldquo;example&rdquo; with whatever directory name you like.</p>
+
+<h2 id="add-theme">Add Theme</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> example
+git init
+git submodule add https://github.com/yuk0ga/koga.git themes/koga</code></pre></div>
+<p>Again, replace &ldquo;example&rdquo; with the directory name you decided to use.</p>
+
+<h1 id="configurations">Configurations</h1>
+
+<h2 id="edit-config-toml">Edit config.toml</h2>
+
+<p>Replace the content of config.toml with the following:</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;koga&#34;</span>
+<span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;https://example.com&#34;</span>
+<span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;en-us&#34;</span>
+<span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+<span class="nx">MetaDataFormat</span> <span class="p">=</span> <span class="s2">&#34;toml&#34;</span>
+<span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
+<span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
+
+<span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
+    <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+    <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+    <span class="nx">archive</span> <span class="p">=</span> <span class="s2">&#34;archives&#34;</span>
+
+<span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+    <span class="nx">emailHash</span> <span class="p">=</span> <span class="s2">&#34;enter your email hash for gravatar&#34;</span>
+    <span class="nx">fullName</span> <span class="p">=</span> <span class="s2">&#34;your full name here&#34;</span>
+
+    <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">social</span><span class="p">]</span>
+      <span class="nx">Github</span> <span class="p">=</span> <span class="s2">&#34;your github username&#34;</span>
+      <span class="nx">Facebook</span> <span class="p">=</span> <span class="s2">&#34;your facebook username&#34;</span>
+      <span class="nx">Twitter</span> <span class="p">=</span> <span class="s2">&#34;your twitter username&#34;</span>
+      <span class="nx">Instagram</span> <span class="p">=</span> <span class="s2">&#34;your instagram username&#34;</span>
+
+<span class="p">[</span><span class="nx">menu</span><span class="p">]</span>
+
+  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Home&#34;</span>
+    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/&#34;</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+
+  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;post&#34;</span>
+    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Posts&#34;</span>
+    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/post/&#34;</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+
+  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Categories&#34;</span>
+    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/categories/&#34;</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+
+  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Tags&#34;</span>
+    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/tags/&#34;</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">4</span>
+
+  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;archives&#34;</span>
+    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Archives&#34;</span>
+    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/archives/&#34;</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">5</span></code></pre></div>
+<p>Set your baseURL, title, email hash for your Gravatar icon, full name, and social media usernames.</p>
+
+<h2 id="delete-default-md-in-archetypes">Delete <code>_default.md</code> in archetypes</h2>
+
+<p>Run the following command:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">rm -rf archetypes/_default.md</code></pre></div>
+<h2 id="create-directory-static-images">Create Directory &ldquo;static/images&rdquo;</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">mkdir static/images</code></pre></div>
+<p>Put any image you use inside static/images, and refer to any of them using the url: &ldquo;static/images/image.png&rdquo;</p>
+
+<h2 id="add-cname-file-for-custom-domains">Add CNAME file (For custom domains)</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">vi static/CNAME
+*I*
+custom-domain.com
+*esc*
+:wq</code></pre></div>
+<h1 id="creating-contents">Creating Contents</h1>
+
+<h2 id="add-your-bio">Add your bio</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">hugo new about.md</code></pre></div>
+<p>In about.md, set the archetype title to whatever catchcopy you wish to use, and add a short bio of yourself as the content.</p>
+
+<h2 id="add-a-project">Add a Project</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">hugo new project/whatever.md</code></pre></div>
+<p>In the project markdown file, set the following:</p>
+
+<ul>
+<li>Name of project</li>
+<li>Description</li>
+<li>Source of Image (URL) A placeholder URL is set as default.</li>
+<li>Github repository name</li>
+<li>Weight (0 = not important. 1 = important. 2 = less important.. so on)</li>
+</ul>
+
+<p>All fields are predefined as a frontmatter, so all you have to do is fill in the blanks.</p>
+
+<h2 id="create-an-article">Create an Article</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">hugo new post/whatever.md</code></pre></div>
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<p>If you wish to enable table of contents for your post, be sure to delete</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">toc</span> <span class="o">=</span> false</code></pre></div>
+<p>from the frontmatter.</p>
+
+<h3 id="images">Images</h3>
+
+<p>Use the figure shortcode to add images to your Article.
+For example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># surround this code with another set of curly braces {}
+</span><span class="c1"></span><span class="o">{</span>&lt; figure <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;img-80&#34;</span> <span class="nv">src</span><span class="o">=</span><span class="s2">&#34;https://media-cdn.mag2.com/p/news/wp-content/uploads/2017/11/20171103_katsudon-650x401.jpg&#34;</span> <span class="nv">title</span><span class="o">=</span><span class="s2">&#34;美味しそうなカツ丼&#34;</span> &gt;<span class="o">}</span></code></pre></div>
+<p>Will result into:
+
+<figure class="img-80">
+    
+        <img src="https://media-cdn.mag2.com/p/news/wp-content/uploads/2017/11/20171103_katsudon-650x401.jpg" />
+    
+    
+    <figcaption>
+        <h4>美味しそうなカツ丼</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+<h3 id="code">Code</h3>
+
+<p>To include some code snippets, simply surround the code with triple backticks like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="sb">```</span>bash
+cat config.toml
+<span class="sb">```</span></code></pre></div>
+<p>This will be rendered as:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">cat config.toml</code></pre></div>
+    <br>
+  </div>
+  
+
+
+</div>
+
+
+  <div class="footer">
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+       and <a href="https://github.com/yuk0ga/koga" target="_blank">koga</a>,
+       Designed by <a href="https://yuk0ga.github.io" target="_blank">Yu Koga</a></p>
+  </div>
+  </body>
+</html>
+
