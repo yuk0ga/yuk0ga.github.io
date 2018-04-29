@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>http://yukoga.me/post/sukiyaki/</loc>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yukoga.me/post/website-2.0/</loc>
     <lastmod>2018-04-26T23:37:48+10:00</lastmod>
   </url>
@@ -30,18 +35,31 @@
   
   <url>
     <loc>http://yukoga.me/archives/2018/04/</loc>
-    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://yukoga.me/archives/</loc>
-    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yukoga.me/categories/brisbane/</loc>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://yukoga.me/categories/</loc>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yukoga.me/tags/food/</loc>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -56,6 +74,12 @@
   </url>
   
   <url>
+    <loc>http://yukoga.me/tags/japanese/</loc>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://yukoga.me/categories/koga-theme/</loc>
     <lastmod>2018-04-26T21:33:53+10:00</lastmod>
     <priority>0</priority>
@@ -63,7 +87,7 @@
   
   <url>
     <loc>http://yukoga.me/post/</loc>
-    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -74,7 +98,7 @@
   
   <url>
     <loc>http://yukoga.me/tags/</loc>
-    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -86,7 +110,7 @@
   
   <url>
     <loc>http://yukoga.me/</loc>
-    <lastmod>2018-04-26T23:37:48+10:00</lastmod>
+    <lastmod>2018-04-29T23:07:02+10:00</lastmod>
     <priority>0</priority>
   </url>
   
