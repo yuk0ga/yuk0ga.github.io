@@ -255,13 +255,21 @@ single.html
 }
 
 .header {
-  margin: 10px auto 20px;
+  margin: 10px auto 10px;
   padding: 10px 0 0;
-  border-bottom: 2px solid black;
   max-width: 700px;
 }
 
-.header > .posttitle {
+.header > img {
+  width: 100%;
+  height: auto;
+}
+
+.header-text {
+  margin: 0;
+}
+
+.header-text > .posttitle {
   font-size: 40px;
 }
 
@@ -403,14 +411,10 @@ Subheadings
 
 .content > h1 {
   font-size: 30px;
-  margin-top: 30px;
   padding-left: 5px;
   border-bottom: 4px solid #4ebf4a;
   border-radius: 2px;
   color: black;
-  /* padding: 10px;
-  background-color: #4ebf4a;
-  color: white; */
 }
 
 .content > h3, .content > h4 {
@@ -586,9 +590,18 @@ mobile
   }
 
   .header {
-    margin: 10px 0;
-    padding: 10px 10px 5px;
+    padding: 0;
+    margin-bottom: 0px;
     border-bottom: 0;
+  }
+
+  .header-text {
+    padding: 10px 10px 5px;
+  }
+
+  .header > img {
+    border-top: 3px;
+    border-radius: 5px;
   }
 
   #tags, #categories {
