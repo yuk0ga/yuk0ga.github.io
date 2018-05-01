@@ -705,8 +705,15 @@ pre > code {
   padding: 20px !important;
   border-radius: 5px;
 }
-pre > code, code > span {
+
+code {
+  background: #eee;
+  padding: 0 5px;
+}
+
+pre > code, code > span, code {
   font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
 }
 
 /*
