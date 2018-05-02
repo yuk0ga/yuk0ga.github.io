@@ -1,11 +1,12 @@
 html, body {
   font-family: sans-serif;
   height: 100%;
+  color: #333;
 }
 
 p {
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 27px;
   /* color: #333; card hover change color will be disabled if this is enabled */
 }
 
@@ -325,64 +326,67 @@ Table of Contents
 */
 
 .toc {
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  border-left: 5px solid #ddd;
   margin: 10px auto;
   max-width: 700px;
+}
+
+.toc > h3 {
+  padding: 10px 0 10px 5%;
+  margin: 0;
 }
 
 /* list style for h1 */
 .toc > nav > ul {
   list-style-type: none;
+  padding-left: 5%;
+  margin: 0;
 }
 
 /* list style for h2 */
 .toc > nav > ul > li > ul {
-  list-style-type: decimal;
-  padding-left: 50px;
+  list-style-type: none;
+  padding-left: 4%;
 }
 
 /* list style for h3 */
 .toc > nav > ul > li > ul > li > ul {
-  list-style-type: square;
-  padding-left: 30px;
+  list-style-type: none;
+  padding-left: 4%;
 }
 
 /* list style for h4 */
 .toc > nav > ul > li > ul > li > ul > li > ul {
-  list-style-type: circle;
+  list-style-type: none;
+  padding-left: 4%;
 }
 
-/* padding per h1 */
-.toc > nav > ul > li {
-  padding-top: 4px;
-}
-
-/* padding per h2, h3 */
+/* padding per h1, h2, h3 */
+.toc > nav > ul > li > a,
 .toc > nav > ul > li > ul > li,
-.toc > nav > ul > li > ul > li > ul > li {
-  padding: 3px 0;
+.toc > nav > ul > li > ul > li > ul > li,
+.toc > nav > ul > li > ul > li > ul > li > ul > li {
+  padding: 5px 0;
 }
 
 /* styling of h1 */
 .toc > nav > ul > li > a {
-  font-weight: bold;
   font-size: 18px;
 }
 
 /* styling of h2 */
 .toc > nav > ul > li > ul > li > a {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 /* styling of h3 */
 .toc > nav > ul > li > ul > li > ul > li > a {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* styling of h4 */
 .toc > nav > ul > li > ul > li > ul > li > ul > li > a {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /* styling of all toc */
@@ -418,20 +422,30 @@ Subheadings
 }
 
 .content > h3, .content > h4 {
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .content > h2 {
-  font-size: 23px;
-  padding-left: 5px;
+  font-size: 27px;
+  padding-left: 8px;
   margin-top: 30px;
   margin-left: 5px;
   border-left: 5px solid #4ebf4a;
   border-radius: 2px;
 }
 
+.content > h3 {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
 .content > h4 {
-  color: #3e9439;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  border-left: 2px solid #4ebf4a;
 }
 
 /*
@@ -614,6 +628,11 @@ mobile
     border-bottom: 0;
   }
 
+  .toc {
+    border-left: 0px;
+    padding: 5px;
+  }
+
   .toc > nav > ul {
     padding-left: 20px;
     padding-right: 20px;
@@ -624,6 +643,14 @@ mobile
   }
 
   .content > h2 {
+    font-size: 24px;
+  }
+
+  .content > h3 {
+    font-size: 21px;
+  }
+
+  .content > h4 {
     font-size: 20px;
   }
 
@@ -715,6 +742,21 @@ pre > code, code > span, code {
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
 }
+
+/*
+blockquote
+*/
+blockquote {
+  border-left: 7px solid #4ebf4a;
+  background: #eee;
+  padding: 1px 15px;
+}
+
+blockquote > p {
+  font-style: italic;
+  font-size: 15px;
+}
+
 
 /*
 footer
