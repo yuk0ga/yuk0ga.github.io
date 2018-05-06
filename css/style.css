@@ -273,7 +273,7 @@ single.html
 
 .header-text > .posttitle {
   font-size: 35px;
-  line-height: 33px;
+  line-height: 35px;
 }
 
 .taxonomies {
@@ -285,7 +285,7 @@ single.html
 #tags, #categories {
   display: inline-block;
   margin: 3px 0 0;
-  padding: 2px 0;
+  padding: 4px 0;
   overflow: auto;
   white-space: nowrap;
 }
