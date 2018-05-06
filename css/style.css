@@ -220,12 +220,13 @@ list.html
 }
 
 .lastmod, .postsummary {
-  margin: 2px 2px 0;
+  margin: 2px;
   font-size: 15px;
 }
 
 .posttitle {
   font-size: 30px;
+  line-height: 29px;
   margin: 0;
 }
 
@@ -272,6 +273,7 @@ single.html
 
 .header-text > .posttitle {
   font-size: 35px;
+  line-height: 33px;
 }
 
 .taxonomies {
@@ -282,8 +284,8 @@ single.html
 
 #tags, #categories {
   display: inline-block;
-  margin: 0;
-  padding: 5px 0;
+  margin: 3px 0 0;
+  padding: 2px 0;
   overflow: auto;
   white-space: nowrap;
 }
@@ -615,16 +617,12 @@ mobile
   }
 
   .header-text {
-    padding: 10px 10px 5px;
+    padding: 5px 10px 5px;
   }
 
   .header > img {
     border-top: 3px;
     border-radius: 5px;
-  }
-
-  #tags, #categories {
-    margin: 5px 0 0;
   }
 
   .content {
@@ -641,22 +639,6 @@ mobile
   .toc > nav > ul {
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .content > h1 {
-    font-size: 27px;
-  }
-
-  .content > h2 {
-    font-size: 24px;
-  }
-
-  .content > h3 {
-    font-size: 21px;
-  }
-
-  .content > h4 {
-    font-size: 20px;
   }
 
   .content > p, .content > h1, .content > h2, .content > h3, .content > h4 {
