@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Apr 2018 23:07:02 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 09 May 2018 22:50:15 +1000</lastBuildDate>
     
 	<atom:link href="http://yukoga.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Brisbane</title>
       <link>http://yukoga.me/categories/brisbane/</link>
-      <pubDate>Sun, 29 Apr 2018 23:07:02 +1000</pubDate>
+      <pubDate>Wed, 09 May 2018 22:50:15 +1000</pubDate>
       
       <guid>http://yukoga.me/categories/brisbane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cooking</title>
+      <link>http://yukoga.me/categories/cooking/</link>
+      <pubDate>Wed, 09 May 2018 22:50:15 +1000</pubDate>
+      
+      <guid>http://yukoga.me/categories/cooking/</guid>
       <description></description>
     </item>
     
