@@ -298,6 +298,7 @@ single.html
 #categories > li > a {
   font-size: 14px;
   background-color: #4ebf4a;
+  border: 1px solid #4ebf4a;
   color: white;
   padding: 2px 4px;
   border-radius: 5px;
@@ -305,6 +306,7 @@ single.html
 
 #categories > li > a:hover {
   background-color: #555;
+  border: 1px solid #555;
   text-decoration: none;
 }
 
@@ -423,7 +425,7 @@ Subheadings
   padding: 10px 0 10px 15px;
   border-left: 6px solid #4ebf4a;
   border-radius: 2px;
-  background: #ededed;
+  background: #f1f1f1;
   color: black;
 }
 
@@ -715,7 +717,6 @@ images
 code
 */
 pre > code {
-  background: #eee !important;
   padding: 20px !important;
   border-radius: 5px;
 }
