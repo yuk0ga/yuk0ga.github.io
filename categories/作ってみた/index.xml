@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Yu Koga</title>
-    <link>http://yukoga.me/post/</link>
-    <description>Recent content in Posts on Yu Koga</description>
+    <title>作ってみた on Yu Koga</title>
+    <link>http://yukoga.me/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+    <description>Recent content in 作ってみた on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Jun 2018 22:26:10 +1000</lastBuildDate>
     
-	<atom:link href="http://yukoga.me/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yukoga.me/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -45,49 +45,6 @@
 めっちゃくっついちゃっててこんなになってしまいました。  変わり果てた姿   フライパンに油引いてなかったからね。そりゃそうなるわ。
 再チャレンジ 一度フライパンを洗い、バターを引いて再挑戦。  ジュンジュワ〜   今度はくっつかずにうまくひっくり返せました。  なんか思ってた感じと違うけど   同じ要領で、全部で８枚焼けました。  見た目が汚いのは気にしない   いざ実食 大事なのは味です。 メープルシロップをかけていただきます。  見た目が汚いのは気にしない（２回目）   うん、普通にうまい。 星３くらい。
 今回買ったミックス(original)以外にも、ミックスの種類がいくつかあったので(buttermilkとか)今度試してみようと思います。</description>
-    </item>
-    
-    <item>
-      <title>ブリスベンですき焼き食べ放題してきた</title>
-      <link>http://yukoga.me/post/sukiyaki/</link>
-      <pubDate>Sun, 29 Apr 2018 23:07:02 +1000</pubDate>
-      
-      <guid>http://yukoga.me/post/sukiyaki/</guid>
-      <description> 初の日本語投稿。
-ジャパンシックな今日この頃 最近、というかオーストラリアに来てからというもの、日本のことを考えない日はありません。 日本の何が恋しいかって、やっぱり一番は食べ物です。
-たかおの天ぷら、紫禁城の酢豚、銀八鮨の寿司、まん天餃子の肉餃子、家系ラーメン、シェイクシャック&amp;hellip;. 書き出したら軽くA41ページは埋められる勢いです。
-そして特に最近食べたかったのがすき焼き。 というわけで、今回はすき焼きを探す旅に出てきました。
-Bishamon Japanese Restaurant CBDから歩いて10分程度の場所にある和食屋さんです。
-なんとこのお店ではすき焼き食べ放題がたったの$34.5で食べられてしまいます。 しかもお肉は和牛！そして更に驚きなのが、時間制限なし。
-コスパ良すぎません？
- 　   初めは「肉１０皿いけるわｗｗ」とか言ってましたが４皿が限界でした。調子乗ってすいません。
- ご満悦のフリアンくん   いやーでも本当にめっちゃ美味しかったです。月に一回は来たいレベル。
-ブリスベンにいてすき焼きが食べたくなったら、是非一度Bishamonに足を運んでみてください。
-※結構混むので予約は絶対した方がいいです。
-bishamonjapanese.com
- </description>
-    </item>
-    
-    <item>
-      <title>Website 2.0</title>
-      <link>http://yukoga.me/post/website-2.0/</link>
-      <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
-      
-      <guid>http://yukoga.me/post/website-2.0/</guid>
-      <description>Brand new website! Yay! I&amp;rsquo;ve wanted to build a Hugo website from scratch for so long, and now I finally made it!!
-It&amp;rsquo;s honestly so fun fiddling around with Hugo.
-Oh, and if you want to see the old website (Website 1.0), it&amp;rsquo;s still available here.</description>
-    </item>
-    
-    <item>
-      <title>Introducing Koga (Hugo Theme)</title>
-      <link>http://yukoga.me/post/how-to-use-koga/</link>
-      <pubDate>Thu, 26 Apr 2018 21:33:53 +1000</pubDate>
-      
-      <guid>http://yukoga.me/post/how-to-use-koga/</guid>
-      <description>&amp;ldquo;Koga&amp;rdquo; is a Hugo theme that I, Yu Koga created from scratch (Don&amp;rsquo;t judge me for naming it after myself).
-So this article is not an introduction about myself, but instead it is a basic tutorial on how to use the Koga theme.
-Prerequisites  Basic knowledge on how to use the command line  Initial Steps Install Hugo If you have not installed Hugo yet, do that now by running the following commands:</description>
     </item>
     
   </channel>

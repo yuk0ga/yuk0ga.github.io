@@ -21,11 +21,20 @@
     </item>
     
     <item>
-      <title>Cooking</title>
-      <link>http://yukoga.me/categories/cooking/</link>
-      <pubDate>Wed, 09 May 2018 22:50:15 +1000</pubDate>
+      <title>English</title>
+      <link>http://yukoga.me/categories/english/</link>
+      <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
       
-      <guid>http://yukoga.me/categories/cooking/</guid>
+      <guid>http://yukoga.me/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japanese</title>
+      <link>http://yukoga.me/categories/japanese/</link>
+      <pubDate>Wed, 06 Jun 2018 22:26:10 +1000</pubDate>
+      
+      <guid>http://yukoga.me/categories/japanese/</guid>
       <description></description>
     </item>
     
@@ -35,6 +44,15 @@
       <pubDate>Thu, 26 Apr 2018 21:33:53 +1000</pubDate>
       
       <guid>http://yukoga.me/categories/koga-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>作ってみた</title>
+      <link>http://yukoga.me/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <pubDate>Wed, 06 Jun 2018 22:26:10 +1000</pubDate>
+      
+      <guid>http://yukoga.me/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description></description>
     </item>
     
