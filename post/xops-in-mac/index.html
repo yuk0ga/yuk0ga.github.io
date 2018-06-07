@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8">
+	  <title>VMもBootCampも使わずにMacでxopsを動かす方法</title>
+		
+		<link rel="stylesheet" href="http://yukoga.me/css/style.css">
+		<link rel="stylesheet" href="http://yukoga.me/css/fontello.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/darcula.min.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+		
+		<link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500" rel="stylesheet">
+		
+		<link rel="icon" href="http://yukoga.me/images/favicon.png">
+    
+    
+  
+  <meta property="og:url" content="http://yukoga.me/post/xops-in-mac/">
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="VMもBootCampも使わずにMacでxopsを動かす方法"/>
+  <meta property="og:description" content="Macユーザーのみなさんに朗報です。"/>
+  <meta property="fb:app_id" content="852304004978190"/>
+  
+
+  </head>
+  <body>
+
+  
+    <div id="navbar">
+  <ul class="navbar">
+  
+    
+    <li><a href="/">Home</a></li>
+    
+    <li><a href="/post/">Posts</a></li>
+    
+    <li><a href="/categories/">Categories</a></li>
+    
+    <li><a href="/tags/">Tags</a></li>
+    
+    <li><a href="/archives/">Archives</a></li>
+    
+  
+  </ul>
+</div>
+
+  
+
+  
+
+<div class="single">
+  <div class="header">
+    
+    <div class="header-text">
+      <p class="lastmod">June 7, 2018</p>
+      <h1 class="posttitle">VMもBootCampも使わずにMacでxopsを動かす方法</h1>
+      <div class="taxonomies">
+        
+        <ul id="tags">
+          
+          <li><a href="/tags/wine"><i class="icon-tags"></i>wine</a></li>
+          
+          <li><a href="/tags/osx"><i class="icon-tags"></i>osx</a></li>
+          
+          <li><a href="/tags/xops"><i class="icon-tags"></i>xops</a></li>
+          
+        </ul>
+        
+        
+        <ul id="categories">
+          
+          <li><a href="/categories/japanese"><i class="icon-categories"></i>Japanese</a></li>
+          
+          <li><a href="/categories/development"><i class="icon-categories"></i>Development</a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+  
+    <div class="toc">
+        <h3>Contents</h3>
+        <nav id="TableOfContents">
+<ul>
+<li><a href="#wineとは">Wineとは</a></li>
+<li><a href="#インストール手順">インストール手順</a>
+<ul>
+<li><a href="#必要なもの">必要なもの</a></li>
+<li><a href="#手順">手順</a>
+<ul>
+<li><a href="#1-xquartzをインストール">1. XQuartzをインストール</a></li>
+<li><a href="#2-wineをインストール">2. Wineをインストール</a></li>
+<li><a href="#3-xopsをダウンロード">3. Xopsをダウンロード</a></li>
+<li><a href="#4-実行">4. 実行</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#問題点">問題点</a>
+<ul>
+<li><a href="#wineコマンドだと起動しない">wineコマンドだと起動しない</a></li>
+<li><a href="#winefileでconfigを適用するにはいちいち再起動しなければならない">winefileでconfigを適用するにはいちいち再起動しなければならない？</a></li>
+<li><a href="#音の設定">音の設定</a></li>
+<li><a href="#homeキーどうするよ">Homeキーどうするよ</a></li>
+</ul></li>
+<li><a href="#おまけ">おまけ</a></li>
+</ul>
+</nav>
+    </div>
+  
+  <div class="content">
+    
+
+<p>まず結論から言うと、<a href="https://www.winehq.org/">Wine</a>というソフトを使います。</p>
+
+<h1 id="wineとは">Wineとは</h1>
+
+<blockquote>
+<p>Wine (originally an acronym for &ldquo;Wine Is Not an Emulator&rdquo;) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, &amp; BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.</p>
+</blockquote>
+
+<p>要約すると、</p>
+
+<ul>
+<li>WineはVMでもエミュレーターでもないよ</li>
+<li>Windows APIコールをPOSIXコールに変換することで、Windowsアプリを動かすために必要最低限のリソースしか使わんよ</li>
+</ul>
+
+<p>ということです。よくわからないですよね。僕もよくわかりません。</p>
+
+<p>ただ確実に言えるのは、VMのようにWindowsのOSをまるごと動かしたり、BootCampを使っていちいちわざわざWindowsを立ち上げるよりも、
+アプリだけ動かせたほうがパソコンへの負荷は低いし簡単ということです。</p>
+
+<p>その上なんと<strong>無料</strong>だし、もう言うことないですね。</p>
+
+<h1 id="インストール手順">インストール手順</h1>
+
+<p>今回は&rdquo;Wine install&rdquo;ってググって一番最初に出てきた<a href="https://www.davidbaumgold.com/tutorials/wine-mac/#part-5:-run-windows-programs-using-wine">こちら</a>のサイトを参考にしました。</p>
+
+<h2 id="必要なもの">必要なもの</h2>
+
+<ul>
+<li>homebrew</li>
+</ul>
+
+<p>ない人は以下のコマンドを叩いてインストールしましょう。</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">ruby -e <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="k">)</span><span class="s2">&#34;</span></code></pre></div>
+<h2 id="手順">手順</h2>
+
+<h3 id="1-xquartzをインストール">1. XQuartzをインストール</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">brew cask install xquartz</code></pre></div>
+<h3 id="2-wineをインストール">2. Wineをインストール</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">brew install wine</code></pre></div>
+<h3 id="3-xopsをダウンロード">3. Xopsをダウンロード</h3>
+
+<p><a href="https://hp.vector.co.jp/authors/VA022962/xops/">こちら</a>から必要なファイルをダウンロードして解凍しましょう。
+んで、</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">mv Downloads/dirname .wine/drive_c/Program<span class="se">\ </span>Files/dirname</code></pre></div>
+<p>しておきます。</p>
+
+<h3 id="4-実行">4. 実行</h3>
+
+<!--
+```bash
+wine path_to_config
+wine path_to_exe
+
+```
+GUIがほしいよって人は -->
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">winefile</code></pre></div>
+<p>このコマンドを叩くと一昔前のエクスプローラ的なGUIが出てきます。
+C: &gt; Program Files &gt; xops096
+と進んでまずはconfig.exeを実行し、Saveしましょう。
+そしたら一旦Wineを再起動します。
+すると、xops096ディレクトリ内にconfig.datが現れていると思います。
+あとはxops096.exeを実行するだけです。</p>
+
+<h1 id="問題点">問題点</h1>
+
+<h2 id="wineコマンドだと起動しない">wineコマンドだと起動しない</h2>
+
+<p>こんなエラーが吐かれます。</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="m">0009</span>:fixme:win:EnumDisplayDevicesW <span class="o">((</span>null<span class="o">)</span>,0,0x33fa70,0x00000000<span class="o">)</span>, stub!
+wine: Unhandled page fault on <span class="nb">read</span> access to 0x00000000 at address 0x414b4e <span class="o">(</span>thread <span class="m">0009</span><span class="o">)</span>, starting debugger...</code></pre></div>
+<h2 id="winefileでconfigを適用するにはいちいち再起動しなければならない">winefileでconfigを適用するにはいちいち再起動しなければならない？</h2>
+
+<p>config4xops05.exeを開いてSAVEしても、config.datは現れません。
+一回Wineを終了して改めてwinefileすると、はじめて現れます。</p>
+
+<h2 id="音の設定">音の設定</h2>
+
+<p>初期設定だと音が出ない可能性があります。
+そんなときは、</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">winecfg</code></pre></div>
+<p>して、audioタブに行ってスピーカーを設定しましょう。</p>
+
+<h2 id="homeキーどうするよ">Homeキーどうするよ</h2>
+
+<p>ほら、FPS視点で武器出したいじゃないすか。
+そんなときは、<strong>fn + ←</strong>。</p>
+
+<p>他にもこんなコマンドが使えました(オフライン)：</p>
+
+<ul>
+<li>fn + F1 視点変更</li>
+<li>fn + F2 画面表示変更</li>
+<li>fn + F5 + Enter 浮遊</li>
+<li>fn + F6 + Enter 装弾数増加</li>
+<li>fn + control + F12 リセット</li>
+</ul>
+
+<p>オンラインでもコマンドの叩き方は基本的に同じ。はず。</p>
+
+<h1 id="おまけ">おまけ</h1>
+
+<p><a href="https://askubuntu.com/questions/74690/how-to-install-32-bit-wine-on-64-bit-ubuntu">https://askubuntu.com/questions/74690/how-to-install-32-bit-wine-on-64-bit-ubuntu</a></p>
+
+<p>これ、やっとくとなんかいいらしいよ。</p>
+
+    <br>
+  </div>
+  
+
+
+</div>
+
+
+  <div class="footer">
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+       and <a href="https://github.com/yuk0ga/koga" target="_blank">koga</a>,
+       Designed by <a href="https://yuk0ga.github.io" target="_blank">Yu Koga</a></p>
+  </div>
+  </body>
+</html>
+
