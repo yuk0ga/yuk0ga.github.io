@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on Yu Koga</title>
-    <link>http://yukoga.me/archives/</link>
+    <link>https://yuk0ga.github.io/archives/</link>
     <description>Recent content in Archives on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Apr 2018 23:07:02 +1000</lastBuildDate>
     
-	<atom:link href="http://yukoga.me/archives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuk0ga.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2018/04</title>
-      <link>http://yukoga.me/archives/2018/04/</link>
+      <link>https://yuk0ga.github.io/archives/2018/04/</link>
       <pubDate>Sun, 29 Apr 2018 23:07:02 +1000</pubDate>
       
-      <guid>http://yukoga.me/archives/2018/04/</guid>
+      <guid>https://yuk0ga.github.io/archives/2018/04/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2018/05</title>
-      <link>http://yukoga.me/archives/2018/05/</link>
+      <link>https://yuk0ga.github.io/archives/2018/05/</link>
       <pubDate>Wed, 09 May 2018 22:50:15 +1000</pubDate>
       
-      <guid>http://yukoga.me/archives/2018/05/</guid>
+      <guid>https://yuk0ga.github.io/archives/2018/05/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2018/06</title>
-      <link>http://yukoga.me/archives/2018/06/</link>
+      <link>https://yuk0ga.github.io/archives/2018/06/</link>
       <pubDate>Thu, 07 Jun 2018 03:59:26 +1000</pubDate>
       
-      <guid>http://yukoga.me/archives/2018/06/</guid>
+      <guid>https://yuk0ga.github.io/archives/2018/06/</guid>
       <description></description>
     </item>
     
