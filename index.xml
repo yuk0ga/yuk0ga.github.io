@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yu Koga</title>
-    <link>https://yuk0ga.github.io/</link>
+    <link>https://yukoga.com/</link>
     <description>Recent content on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Jun 2018 03:59:26 +1000</lastBuildDate>
     
-	<atom:link href="https://yuk0ga.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yukoga.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://yuk0ga.github.io/project/koga/</link>
+      <link>https://yukoga.com/project/koga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/project/koga/</guid>
+      <guid>https://yukoga.com/project/koga/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VMもBootCampも使わずにMacでxopsを動かす方法</title>
-      <link>https://yuk0ga.github.io/post/xops-in-mac/</link>
+      <link>https://yukoga.com/post/xops-in-mac/</link>
       <pubDate>Thu, 07 Jun 2018 03:59:26 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/post/xops-in-mac/</guid>
+      <guid>https://yukoga.com/post/xops-in-mac/</guid>
       <description>まず結論から言うと、Wineというソフトを使います。
 Wineとは  Wine (originally an acronym for &amp;ldquo;Wine Is Not an Emulator&amp;rdquo;) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, &amp;amp; BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.</description>
     </item>
     
     <item>
       <title>無性にメロンパンが食べたくなったから作ってみた</title>
-      <link>https://yuk0ga.github.io/post/melonpan/</link>
+      <link>https://yukoga.com/post/melonpan/</link>
       <pubDate>Wed, 06 Jun 2018 22:26:10 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/post/melonpan/</guid>
+      <guid>https://yukoga.com/post/melonpan/</guid>
       <description>別にメロンパンがすごく好きというわけでもありませんが、 なんか食べたくなったので作り方を調べてみたらめちゃめちゃ簡単な方法が見つかったので試してみました。
 ちなみに上の画像は拾い画です。こんなガチメロンパンは作ってません。というか作れません。
 今回参考にしたレシピはこちら
@@ -54,10 +54,10 @@ Wineとは  Wine (originally an acronym for &amp;ldquo;Wine Is Not an Emulator&a
     
     <item>
       <title>お手軽パンケーキミックスでパンケーキ作ってみた</title>
-      <link>https://yuk0ga.github.io/post/pancake/</link>
+      <link>https://yukoga.com/post/pancake/</link>
       <pubDate>Wed, 09 May 2018 22:50:15 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/post/pancake/</guid>
+      <guid>https://yukoga.com/post/pancake/</guid>
       <description>パンケーキって、普通に作ろうとすると結構めんどうですよね。意外と必要な材料多いし。 パンケーキミックスを買ったとしても、それをボウルに入れてダマにならないようにかき混ぜなきゃいけないし。
 そんな悩める子羊たちの味方 オーストラリアのスーパーにはこんなものが売っています。  ２ドルちょいくらい   こいつすごいんすよ。 これに水入れて振るだけでパンケーキミックスができてしまうんです。あとはそのままフライパンに流し込むだけ。 手間なし！洗い物なし！いえーい
 水入れて振ったら中はこんな感じ：  水を入れる前に振っとくとダマができにくいです（たぶん   さっそく作ってみる フライパンを弱火で熱して、パンケーキミックスin  いい感じにとろとろしてますね〜。   こんな感じで生地に穴が空いてきたらひっくり返し時らしいです。  穴空きすぎてキモい   さて、ひっくり返そう、と思って菜箸をパンケーキの下に滑り込ませようとしたら。。
@@ -68,10 +68,10 @@ Wineとは  Wine (originally an acronym for &amp;ldquo;Wine Is Not an Emulator&a
     
     <item>
       <title>ブリスベンですき焼き食べ放題してきた</title>
-      <link>https://yuk0ga.github.io/post/sukiyaki/</link>
+      <link>https://yukoga.com/post/sukiyaki/</link>
       <pubDate>Sun, 29 Apr 2018 23:07:02 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/post/sukiyaki/</guid>
+      <guid>https://yukoga.com/post/sukiyaki/</guid>
       <description> 初の日本語投稿。
 ジャパンシックな今日この頃 最近、というかオーストラリアに来てからというもの、日本のことを考えない日はありません。 日本の何が恋しいかって、やっぱり一番は食べ物です。
 たかおの天ぷら、紫禁城の酢豚、銀八鮨の寿司、まん天餃子の肉餃子、家系ラーメン、シェイクシャック&amp;hellip;. 書き出したら軽くA41ページは埋められる勢いです。
@@ -89,10 +89,10 @@ bishamonjapanese.com
     
     <item>
       <title>Website 2.0</title>
-      <link>https://yuk0ga.github.io/post/website-2.0/</link>
+      <link>https://yukoga.com/post/website-2.0/</link>
       <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/post/website-2.0/</guid>
+      <guid>https://yukoga.com/post/website-2.0/</guid>
       <description>Brand new website! Yay! I&amp;rsquo;ve wanted to build a Hugo website from scratch for so long, and now I finally made it!!
 It&amp;rsquo;s honestly so fun fiddling around with Hugo.
 Oh, and if you want to see the old website (Website 1.0), it&amp;rsquo;s still available here.</description>
@@ -100,10 +100,10 @@ Oh, and if you want to see the old website (Website 1.0), it&amp;rsquo;s still a
     
     <item>
       <title>Introducing Koga (Hugo Theme)</title>
-      <link>https://yuk0ga.github.io/post/how-to-use-koga/</link>
+      <link>https://yukoga.com/post/how-to-use-koga/</link>
       <pubDate>Thu, 26 Apr 2018 21:33:53 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/post/how-to-use-koga/</guid>
+      <guid>https://yukoga.com/post/how-to-use-koga/</guid>
       <description>&amp;ldquo;Koga&amp;rdquo; is a Hugo theme that I, Yu Koga created from scratch (Don&amp;rsquo;t judge me for naming it after myself).
 So this article is not an introduction about myself, but instead it is a basic tutorial on how to use the Koga theme.
 Prerequisites  Basic knowledge on how to use the command line  Initial Steps Install Hugo If you have not installed Hugo yet, do that now by running the following commands:</description>
@@ -111,37 +111,37 @@ Prerequisites  Basic knowledge on how to use the command line  Initial Steps Ins
     
     <item>
       <title></title>
-      <link>https://yuk0ga.github.io/project/console-chat/</link>
+      <link>https://yukoga.com/project/console-chat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/project/console-chat/</guid>
+      <guid>https://yukoga.com/project/console-chat/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yuk0ga.github.io/project/unix/</link>
+      <link>https://yukoga.com/project/unix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/project/unix/</guid>
+      <guid>https://yukoga.com/project/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yuk0ga.github.io/project/webserver/</link>
+      <link>https://yukoga.com/project/webserver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/project/webserver/</guid>
+      <guid>https://yukoga.com/project/webserver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hi, my name is Yu</title>
-      <link>https://yuk0ga.github.io/about/</link>
+      <link>https://yukoga.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/about/</guid>
+      <guid>https://yukoga.com/about/</guid>
       <description>Born and raised in Japan, currently in Brisbane, Australia studying Computer Science at Queensland University of Technology. I have some experience in Java, Python, JavaScript, and HTML/CSS. Interested in Web &amp;amp; Mobile Applications, Machine Learning and AI.</description>
     </item>
     

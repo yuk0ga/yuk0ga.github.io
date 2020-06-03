@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yu Koga</title>
-    <link>https://yuk0ga.github.io/tags/</link>
+    <link>https://yukoga.com/tags/</link>
     <description>Recent content in Tags on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Jun 2018 22:26:10 +1000</lastBuildDate>
     
-	<atom:link href="https://yuk0ga.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yukoga.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Food</title>
-      <link>https://yuk0ga.github.io/tags/food/</link>
+      <link>https://yukoga.com/tags/food/</link>
       <pubDate>Wed, 06 Jun 2018 22:26:10 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/tags/food/</guid>
+      <guid>https://yukoga.com/tags/food/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://yuk0ga.github.io/tags/hugo/</link>
+      <link>https://yukoga.com/tags/hugo/</link>
       <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/tags/hugo/</guid>
+      <guid>https://yukoga.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Japanese</title>
-      <link>https://yuk0ga.github.io/tags/japanese/</link>
+      <link>https://yukoga.com/tags/japanese/</link>
       <pubDate>Sun, 29 Apr 2018 23:07:02 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/tags/japanese/</guid>
+      <guid>https://yukoga.com/tags/japanese/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Koga Theme</title>
-      <link>https://yuk0ga.github.io/tags/koga-theme/</link>
+      <link>https://yukoga.com/tags/koga-theme/</link>
       <pubDate>Thu, 26 Apr 2018 21:33:53 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/tags/koga-theme/</guid>
+      <guid>https://yukoga.com/tags/koga-theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Osx</title>
-      <link>https://yuk0ga.github.io/tags/osx/</link>
+      <link>https://yukoga.com/tags/osx/</link>
       <pubDate>Thu, 07 Jun 2018 03:59:26 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/tags/osx/</guid>
+      <guid>https://yukoga.com/tags/osx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Website</title>
-      <link>https://yuk0ga.github.io/tags/website/</link>
+      <link>https://yukoga.com/tags/website/</link>
       <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/tags/website/</guid>
+      <guid>https://yukoga.com/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wine</title>
-      <link>https://yuk0ga.github.io/tags/wine/</link>
+      <link>https://yukoga.com/tags/wine/</link>
       <pubDate>Thu, 07 Jun 2018 03:59:26 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/tags/wine/</guid>
+      <guid>https://yukoga.com/tags/wine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xops</title>
-      <link>https://yuk0ga.github.io/tags/xops/</link>
+      <link>https://yukoga.com/tags/xops/</link>
       <pubDate>Thu, 07 Jun 2018 03:59:26 +1000</pubDate>
       
-      <guid>https://yuk0ga.github.io/tags/xops/</guid>
+      <guid>https://yukoga.com/tags/xops/</guid>
       <description></description>
     </item>
     
