@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website on Yu Koga</title>
-    <link>https://yukoga.com/tags/website/</link>
+    <link>https://yuk0ga.github.io/tags/website/</link>
     <description>Recent content in Website on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Apr 2018 23:37:48 +1000</lastBuildDate>
     
-	<atom:link href="https://yukoga.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuk0ga.github.io/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Website 2.0</title>
-      <link>https://yukoga.com/post/website-2.0/</link>
+      <link>https://yuk0ga.github.io/post/website-2.0/</link>
       <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
       
-      <guid>https://yukoga.com/post/website-2.0/</guid>
+      <guid>https://yuk0ga.github.io/post/website-2.0/</guid>
       <description>Brand new website! Yay! I&amp;rsquo;ve wanted to build a Hugo website from scratch for so long, and now I finally made it!!
 It&amp;rsquo;s honestly so fun fiddling around with Hugo.
 Oh, and if you want to see the old website (Website 1.0), it&amp;rsquo;s still available here.</description>

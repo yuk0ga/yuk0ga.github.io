@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yu Koga</title>
-    <link>https://yukoga.com/categories/</link>
+    <link>https://yuk0ga.github.io/categories/</link>
     <description>Recent content in Categories on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 May 2018 22:50:15 +1000</lastBuildDate>
     
-	<atom:link href="https://yukoga.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuk0ga.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Brisbane</title>
-      <link>https://yukoga.com/categories/brisbane/</link>
+      <link>https://yuk0ga.github.io/categories/brisbane/</link>
       <pubDate>Wed, 09 May 2018 22:50:15 +1000</pubDate>
       
-      <guid>https://yukoga.com/categories/brisbane/</guid>
+      <guid>https://yuk0ga.github.io/categories/brisbane/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://yukoga.com/categories/development/</link>
+      <link>https://yuk0ga.github.io/categories/development/</link>
       <pubDate>Thu, 07 Jun 2018 03:59:26 +1000</pubDate>
       
-      <guid>https://yukoga.com/categories/development/</guid>
+      <guid>https://yuk0ga.github.io/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>English</title>
-      <link>https://yukoga.com/categories/english/</link>
+      <link>https://yuk0ga.github.io/categories/english/</link>
       <pubDate>Thu, 26 Apr 2018 23:37:48 +1000</pubDate>
       
-      <guid>https://yukoga.com/categories/english/</guid>
+      <guid>https://yuk0ga.github.io/categories/english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Japanese</title>
-      <link>https://yukoga.com/categories/japanese/</link>
+      <link>https://yuk0ga.github.io/categories/japanese/</link>
       <pubDate>Thu, 07 Jun 2018 03:59:26 +1000</pubDate>
       
-      <guid>https://yukoga.com/categories/japanese/</guid>
+      <guid>https://yuk0ga.github.io/categories/japanese/</guid>
       <description></description>
     </item>
     
     <item>
       <title>作ってみた</title>
-      <link>https://yukoga.com/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://yuk0ga.github.io/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Wed, 06 Jun 2018 22:26:10 +1000</pubDate>
       
-      <guid>https://yukoga.com/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://yuk0ga.github.io/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description></description>
     </item>
     

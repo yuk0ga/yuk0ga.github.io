@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Yu Koga</title>
-    <link>https://yukoga.com/categories/development/</link>
+    <link>https://yuk0ga.github.io/categories/development/</link>
     <description>Recent content in Development on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Jun 2018 03:59:26 +1000</lastBuildDate>
     
-	<atom:link href="https://yukoga.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yuk0ga.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMもBootCampも使わずにMacでxopsを動かす方法</title>
-      <link>https://yukoga.com/post/xops-in-mac/</link>
+      <link>https://yuk0ga.github.io/post/xops-in-mac/</link>
       <pubDate>Thu, 07 Jun 2018 03:59:26 +1000</pubDate>
       
-      <guid>https://yukoga.com/post/xops-in-mac/</guid>
+      <guid>https://yuk0ga.github.io/post/xops-in-mac/</guid>
       <description>まず結論から言うと、Wineというソフトを使います。
 Wineとは  Wine (originally an acronym for &amp;ldquo;Wine Is Not an Emulator&amp;rdquo;) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, &amp;amp; BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.</description>
     </item>
     
     <item>
       <title>Introducing Koga (Hugo Theme)</title>
-      <link>https://yukoga.com/post/how-to-use-koga/</link>
+      <link>https://yuk0ga.github.io/post/how-to-use-koga/</link>
       <pubDate>Thu, 26 Apr 2018 21:33:53 +1000</pubDate>
       
-      <guid>https://yukoga.com/post/how-to-use-koga/</guid>
+      <guid>https://yuk0ga.github.io/post/how-to-use-koga/</guid>
       <description>&amp;ldquo;Koga&amp;rdquo; is a Hugo theme that I, Yu Koga created from scratch (Don&amp;rsquo;t judge me for naming it after myself).
 So this article is not an introduction about myself, but instead it is a basic tutorial on how to use the Koga theme.
 Prerequisites  Basic knowledge on how to use the command line  Initial Steps Install Hugo If you have not installed Hugo yet, do that now by running the following commands:</description>
