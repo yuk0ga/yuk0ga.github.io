@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Yu Koga</title>
-    <link>https://yuk0ga.github.io/project/</link>
+    <link>https://yukoga.com/project/</link>
     <description>Recent content in Projects on Yu Koga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://yuk0ga.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yukoga.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://yuk0ga.github.io/project/koga/</link>
+      <link>https://yukoga.com/project/koga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/project/koga/</guid>
+      <guid>https://yukoga.com/project/koga/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yuk0ga.github.io/project/console-chat/</link>
+      <link>https://yukoga.com/project/console-chat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/project/console-chat/</guid>
+      <guid>https://yukoga.com/project/console-chat/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yuk0ga.github.io/project/unix/</link>
+      <link>https://yukoga.com/project/unix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/project/unix/</guid>
+      <guid>https://yukoga.com/project/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yuk0ga.github.io/project/webserver/</link>
+      <link>https://yukoga.com/project/webserver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuk0ga.github.io/project/webserver/</guid>
+      <guid>https://yukoga.com/project/webserver/</guid>
       <description></description>
     </item>
     
